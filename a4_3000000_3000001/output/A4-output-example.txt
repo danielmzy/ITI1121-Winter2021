@@ -1,0 +1,43 @@
+*** Decision tree for weather-nominal.csv ***
+
+if (outlook is 'sunny') {
+  if (humidity is 'high') {
+    class = no
+  }
+  else if (humidity is 'normal') {
+    class = yes
+  }
+}
+else if (outlook is 'overcast') {
+  class = yes
+}
+else if (outlook is 'rainy') {
+  if (windy is 'FALSE') {
+    class = yes
+  }
+  else if (windy is 'TRUE') {
+    class = no
+  }
+}
+
+*** Decision tree for weather-numeric.csv ***
+
+if (outlook is 'sunny') {
+  if (humidity <= 70) {
+    play = yes
+  }
+  else if (humidity > 70) {
+    play = no
+  }
+}
+else if (outlook is 'overcast') {
+  play = yes
+}
+else if (outlook is 'rainy') {
+  if (windy is 'FALSE') {
+    play = yes
+  }
+  else if (windy is 'TRUE') {
+    play = no
+  }
+}
