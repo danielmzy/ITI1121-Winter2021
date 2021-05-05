@@ -1,0 +1,85 @@
+The most critical skill needed to succeed as a programmer is a problem solving skill.
+
+Thus consider doing as many problems as possible during the break. If you can get access to
+
+"Introduction to Java Programming", by Y. Daniel Liangand
+
+if you really want to be ready for ITI1121, solve all the problems at the end of Chapter 6 in Liang book
+
+http://www.cs.armstrong.edu/liang/intro10e/
+
+You can find solutions to even numbered exercises here:
+
+http://www.cs.armstrong.edu/liang/intro10e/exercisesolution.html
+
+ 
+
+Resources and advice for novice (Java) programmers:
+
+ 
+
+Watch the two videos (links below) about Python to Java transition and read some book about Java (see two recommendations below) and make sure you fully understand the critical concepts that we covered in Python (but in Java this time), such as function design, if statements, loops, lists (called arrays in Java), and finally elementary things about objects. Make sure you understand type declaration in Java (since that does not exist in Python). The fact that you were writing "type contract" the whole semester in Python should be helpful with understanding types in Java.
+
+ 
+
+Here is a free book (that is very good). If you opt for this book read the first 15 chapters, as they covered what we did in Python but this time in Java
+
+http://greenteapress.com/thinkjava5/thinkapjava.pdf
+
+ 
+
+Here is another good book -- it has lots of problems and examples. If you use this book read the first 10 chapters as they covered what we did in Python but this time in Java:   Introduction to Java Programming, Y. Daniel Liang
+
+ 
+
+Resources for  ITI1121:
+
+In the past years, the following textbook was used in ITI1121:
+
+"Data Structures: Abstraction and Design Using Java”, by Elliot B.
+
+Koffman, Paul A. T. Wolfgang (wiley).
+
+ 
+
+And here is a free ebook that covers similar material:
+
+http://dept.cs.williams.edu/~bailey/JavaStructures/Book.html
+
+ 
+
+The following information and resources are for those who will be taking ITI1121 the next semester. As you know ITI1121 is in Java and it, for the most part, continues where ITI1120 left off. To help the students prepare for the course, a couple of years ago I recorded two lectures introducing Java and comparing it to what we did in Python. Among others, the lectures explain how to write and run your first Java program, what Java IDE to use and about Java-to-Python transition in general.
+
+Specifically, I recorded two python-to-java transition lectures
+
+If you are new to (or still uncomfortable with) Java, before doing anything else make sure you watch (at least) the first 20 minutes of Lectures 1 in order see how to install Java (i.e. JRE) and write/run your first Java program (using editor + compiler-in-terminal). Then try to achieve the same on your computer. I will give a few more links below about it. Then watch the rest of the two lectures.
+
+What is in those two lectures:
+
+Lecture 1: starts of by explaining what to install, how to write and run your first Java program and then it introduces the main differences between Python and Java step by step including: printing in Java, declaring types, arrays/lists in Java, for loops in Java, strings and getting input from a user.
+
+Lecture 2: starts of by showing the Java visualizer (running code from Lecture 1 in it), then it revisits Java's arrays vs Python lists briefly, then I redo, in Java, four functions we developed in Python this year in the second/third lecture of the semester. It is critically important to understand how to develop Java's methods (which is what functions are called in Java). Once done, that too is run in Java visualizer.
+
+You can find those two python-to-java lectures at this youtube link:
+
+https://www.youtube.com/playlist?list=PL05iotJWq-ULLjYrOvxrVuNTduF7GkTtM
+
+****
+
+I also found four of my old ITI1120 lectures in Java from 5 years ago, in particular lectures on objects. I created a youtube playlist with those four lectures for those who would like to learn beginnings of Java objects. Recall that ITI1121 will be mostly about (advanced) object oriented programming in Java. The four lectures cover elementary Java Objects (like we did in Python this year). There is no mention of difference with Python since that was not the aim of those lectures 5 years ago.
+
+You can find the four lectures at this link: (and I will upload the code from the four lectures at the usual place on Blackboard learn.)
+
+https://www.youtube.com/playlist?list=PL05iotJWq-UIZeMthfMRt0iXkYCyQsgkL
+
+****
+
+Finally for Windows users, after watching the first 20 minutes of lectures 1 on python-to-java transition and after installing JDK and some editor (like Sublime Text) if you still have any problems with any of the steps explained in the first 20 minutes, try the following:
+
+- if you want to know how to start command line in Windows (the equivalent to terminal/console in OSX and linux) go to youtube and type "command line" and then type the version of your operating system. For example here is the first hit I got:
+
+https://www.youtube.com/watch?v=MBBWVgE0ewk
+
+- once you start the command line, if you have problems with running javac in it, do similar thing again but this time type in youtube or google "javac" and then the version of your Windows. For example here is what I got for Windows 10:
+
+https://www.youtube.com/watch?v=_hJYksZPMjk
