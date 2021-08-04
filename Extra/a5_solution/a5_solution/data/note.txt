@@ -1,0 +1,12 @@
+AF104264 - Hepatitis D virus strain TW2476, complete genome
+AF209859 - Hepatitis D virus delta antigen gene, complete cds
+AJ307077 - Hepatitis delta virus complete genome, isolate W5
+NC_000907.1 - Haemophilus influenzae Rd KW20, complete genome
+NC_000908.2 - Mycoplasma genitalium G37, complete genome
+NC_000909.1 - Methanocaldococcus jannaschii DSM 2661, complete genome
+NC_000913.2 - Escherichia coli K12, complete genome
+NC_000964.2 - Bacillus subtilis subsp. subtilis str. 168, complete genome
+NC_009801.1 - Escherichia coli E24377A, complete genome
+NC_001731.1 - Molluscum contagiosum virus subtype 1, complete genome
+NC_003997.3 - Bacillus anthracis str. Ames chromosome, complete genome
+NC_009801.1 - Escherichia coli E24377A, complete genome
