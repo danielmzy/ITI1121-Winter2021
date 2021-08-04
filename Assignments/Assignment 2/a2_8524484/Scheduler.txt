@@ -1,0 +1,41 @@
+Question 5
+#############################################
+ 1. What are the differences in how jobs are managed between FCFS and FPPS?
+
+==> In FCFS, the jobs are done sequentially. The one that is in the queue first
+	shall be done first. Whereas FPPS, depends on the priority of the job
+	 to get it done.
+
+2. What are the advantages of FCFS over FPPS and vice versa?
+
+==>  In FCFS, you maintain the order of the jobs whereas in FPPS you do not.
+	In FPPS, there is a option for the queues to pre-emtive whereas FCFS
+	do not have so.
+	In FPPS, there is no convoy effect whereas it is present in the FCFS.
+	Convoy effect is the sloing down of the entire operating system because
+	of a few slow processes. 
+	In FCFS, the next CPU burst time of a process can be predicted easily 
+	whereas it is difficult in FPPS. CPU burst time is the amount of time 
+	the process uses the processor before it is no longer ready.
+	In FPPS, the average waiting time is reduced.
+
+3. What potential problems do you see happening if you were using an op-erating
+   system with an FCFS scheduler?
+
+==> a) The waiting time can be large when jobs that require a short time, wait 
+	longer. (convoy effect)
+	
+     b) Not suitable for time sharing systems
+
+     c) difficult to predict the next  CPU burst time of a process
+
+     d) average waiting time is long.
+
+4. What potential problems do you see happening if you were using an op-erating
+   system with an FPPS scheduler?
+
+==> a) process with the shortest time
+ 
+    b) the longest jobs maybe postponed too much
+
+    c) average waiting time is reduced
