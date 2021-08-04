@@ -1,0 +1,32 @@
+A JAR file is a file format that can be used to aggregate many files
+into one.  Furthermore, a MANIFEST file can be used to specify the
+path of the class that contains the main method to be used at startup
+time.
+
+Here, the file manifest.mf contains the following entry:
+
+Main-Class: Run
+
+Further information about JAR files can be found here:
+
+http://java.sun.com/j2se/1.5.0/docs/guide/jar/jar.html
+
+The command line option -m is used to specify the name of the manifest
+when creating an archive:
+
+(Compile the java files first: javac *.java)
+
+jar -cvmf manifest.mf media.jar *.class *.java notes.txt
+
+Be careful, if the option -m comes before the -f then the manifest
+file must also come before the .jar file!
+
+jar -cvfm media.jar manifest.mf *.class *.java notes.txt
+
+Now, you can lauch the application as follows:
+
+java -jar media.jar <arg1> <arg2>
+
+or
+
+double click onto the jar file!
